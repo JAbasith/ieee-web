@@ -1,17 +1,14 @@
 .Home{
     display:flex ;
-    background-image: url('17973908.jpg');
     background-size: cover;
     background-position: center;
     color: #000000;
     text-align: center;
     padding-top: 40px;
-    height: 100vh;
     margin-top: 105px;
 }
 
 .Home-content{
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -19,9 +16,14 @@
     font-size: 36px;
 }
 
+.Home h3{
+    text-align: left;
+}
+
 .Home p{
     font-size: 18px;
     margin-bottom: 20px;
+    margin-right: 50px;
 }
 
 .cta-button{
@@ -43,11 +45,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: url('ShareTechMono-Regular.ttf');
 }
 
 body{
-    background-color: #007bff;
+    background-image: url('17973908.jpg');
 }
 
 .header{
@@ -62,6 +64,7 @@ body{
     z-index: 100;
     margin-bottom: 100px;
     background-color: azure;
+    
 }
 
 .logo{
@@ -77,5 +80,9 @@ body{
     color: #000000;
     text-decoration: none;
     font-weight: 500;
+    font-family: url('ShareTechMono-Regular.ttf');
 }
 
+.intro{
+    display: flex;
+}
